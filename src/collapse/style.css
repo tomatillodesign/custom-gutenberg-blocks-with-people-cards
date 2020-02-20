@@ -1,0 +1,121 @@
+.collapse-button-area .dashicons {
+     margin-top: 6px;
+     float: right;
+}
+
+.collapse-section.collapsed .dashicons.up {
+     display: none;
+}
+
+.collapse-section.collapsed .dashicons.down {
+     display: inline-block;
+}
+
+.collapse-section .dashicons.down {
+     display: none;
+}
+
+.collapse-title-input {
+	display: inline;
+}
+
+
+
+
+/*!
+ * Bootstrap v4.0.0 (https://getbootstrap.com)
+ * Copyright 2011-2018 The Bootstrap Authors
+ * Copyright 2011-2018 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+/* CSS Edited by Chris Liu-Beers for "Custom Bootstrap" plugin ----- */
+
+/* ------------------------ COLLAPSE ------------------------------- */
+
+.fade {
+  opacity: 0;
+  transition: opacity 0.15s linear;
+}
+
+.fade.show {
+  opacity: 1;
+}
+
+.collapse {
+  display: none;
+}
+
+.collapse.show {
+  display: block;
+}
+
+tr.collapse.show {
+  display: table-row;
+}
+
+tbody.collapse.show {
+  display: table-row-group;
+}
+
+.collapsing {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  transition: height 0.35s ease;
+}
+
+/* ------- CLB Customizations ----------- */
+
+.collapse-button-area {
+     text-align: center;
+     width: 100%;
+     padding: 20px;
+     background: #333;
+     color: #fff;
+     border: none;
+     border-top: none;
+}
+
+a.collapse-section {
+     color: #fff;
+     font-weight: 700;
+     text-decoration: none;
+}
+
+.collapse, .collapsing {
+     text-align: left;
+     border: none;
+     border-top: none;
+     background: #eee;
+     padding: 0px;
+     color: #333;
+}
+
+.clb-collapse-area {
+     margin-bottom: 20px;
+}
+
+.collapse-text {
+	padding: 20px;
+}
+
+.collapse-text p:last-of-type {
+     margin-bottom: 0;
+}
+
+.collapse-icon {
+     float: left;
+     margin-right: 8px;
+     margin-top: -11px;
+}
+
+.collapse-button-area.foreground-text-light, .collapse-button-area.foreground-text-light a {
+     color: #fff;
+}
+
+.collapse-button-area.foreground-text-dark, .collapse-button-area.foreground-text-dark a {
+     color: #222;
+}
+
+/* ------------------------ END COLLAPSE ------------------------------- */

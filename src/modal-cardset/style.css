@@ -1,0 +1,30 @@
+.modal-cardset {
+     display: grid;
+     column-gap: 20px;
+     grid-row-gap: 20px;
+     grid-template-columns: 1fr;
+}
+
+@media only screen and (min-width: 769px) {
+
+     .modal-cardset.columns-2 {
+          grid-template-columns: 1fr 1fr;
+     }
+
+     .modal-cardset.columns-3 {
+          grid-template-columns: 1fr 1fr 1fr;
+     }
+
+     .modal-cardset.columns-4 {
+          grid-template-columns: 1fr 1fr;
+     }
+
+}
+
+@media only screen and (min-width: 1160px) {
+
+     .modal-cardset.columns-4 {
+          grid-template-columns: 1fr 1fr 1fr 1fr;
+     }
+
+}

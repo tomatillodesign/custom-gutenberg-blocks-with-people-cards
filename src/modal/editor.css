@@ -1,0 +1,28 @@
+.static-modal-window {
+     padding: 16px;
+     border: 1px solid rgba(0, 0, 0, 0.2);
+     border-radius: 0.3rem;
+     box-shadow: 0 10px 40px rgba(0,0,0,.15);
+}
+
+.static-modal-window .button-text {
+     font-size: 12px;
+     color: #777;
+}
+
+.static-modal-window h4 {
+     font-size: 16px;
+     margin-bottom: 0 !important;
+}
+
+.static-modal-window .modal-inner-block-area {
+     margin-top: 20px;
+     /* padding-top: 20px; */
+     border-top: 1px solid #aaa;
+}
+
+.static-modal-window .clb-close-button {
+     float: right;
+     color: red;
+     opacity: .3;
+}

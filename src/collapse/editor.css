@@ -1,0 +1,26 @@
+.collapse-static {
+
+}
+
+.collapse-static .title-area {
+     text-align: center;
+     padding: 8px;
+     background: #333333;
+     color: #fff;
+}
+
+.collapse-static .inner-block-content {
+     background: #f5f5f5;
+     padding: 20px;
+     border: 1px solid #ddd;
+}
+
+.collapse-static .dashicons {
+     margin-top: 6px;
+     float: right;
+     margin-right: 6px;
+}
+
+.wp-block-clb-custom-blocks-collapse-selected .collapse-title-input {
+     margin-bottom: 20px;
+}

@@ -1,0 +1,16 @@
+@media only screen and (min-width: 800px) {
+
+	.modal-dialog {
+	    margin-top: 136px !important;
+	}
+
+}
+
+.modal-body ul {
+	margin-bottom: 30px;
+	margin-left: 40px;
+}
+
+.modal-body li {
+    list-style-type: disc;
+}

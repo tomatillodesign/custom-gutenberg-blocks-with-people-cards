@@ -1,0 +1,56 @@
+.clb-callout-area {
+     padding: 26px;
+     margin-bottom: 20px;
+     text-align: left;
+}
+
+.clb-callout-area .callout-body {
+     text-align: left;
+}
+
+.clb-callout-area .callout-icon {
+     text-align: center;
+     margin-bottom: 12px;
+}
+
+.clb-callout-area h3 {
+     margin-top: 0;
+     text-align: center;
+}
+
+.clb-callout-area p:last-of-type {
+     margin-bottom: 0;
+}
+
+.clb-callout-area.right {
+     width: 40%;
+     float: right;
+     margin-left: 20px;
+}
+
+.clb-callout-area.left {
+     width: 40%;
+     float: left;
+     margin-right: 20px;
+}
+
+.clb-callout-area.full {
+     margin-bottom: 26px;
+}
+
+.clb-callout-area.foreground-text-light, .clb-callout-area.foreground-text-light a {
+     color: #fff;
+}
+
+.clb-callout-area.foreground-text-dark, .clb-callout-area.foreground-text-dark a {
+     color: #222;
+}
+
+@media only screen and (max-width: 769px) {
+
+     .clb-callout-area.left, .clb-callout-area.right {
+          width: 100%;
+          margin-bottom: 26px;
+     }
+
+}

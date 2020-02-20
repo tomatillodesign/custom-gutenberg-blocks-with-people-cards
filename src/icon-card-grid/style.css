@@ -1,0 +1,30 @@
+.icon-card-grid {
+     display: grid;
+     column-gap: 20px;
+     grid-row-gap: 20px;
+     grid-template-columns: 1fr;
+}
+
+@media only screen and (min-width: 769px) {
+
+     .icon-card-grid.columns-2 {
+          grid-template-columns: 1fr 1fr;
+     }
+
+     .icon-card-grid.columns-3 {
+          grid-template-columns: 1fr 1fr 1fr;
+     }
+
+     .icon-card-grid.columns-4 {
+          grid-template-columns: 1fr 1fr;
+     }
+
+}
+
+@media only screen and (min-width: 1160px) {
+
+     .icon-card-grid.columns-4 {
+          grid-template-columns: 1fr 1fr 1fr 1fr;
+     }
+
+}

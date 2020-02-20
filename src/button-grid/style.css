@@ -1,0 +1,36 @@
+.button.full.clb-button {
+     width: 100%;
+     text-align: center;
+     height: 100%;
+}
+
+.button-grid {
+     display: grid;
+     column-gap: 20px;
+     grid-row-gap: 20px;
+     grid-template-columns: 1fr;
+}
+
+@media only screen and (min-width: 769px) {
+
+     .button-grid.columns-2 {
+          grid-template-columns: 1fr 1fr;
+     }
+
+     .button-grid.columns-3 {
+          grid-template-columns: 1fr 1fr 1fr;
+     }
+
+     .button-grid.columns-4 {
+          grid-template-columns: 1fr 1fr;
+     }
+
+}
+
+@media only screen and (min-width: 1160px) {
+
+     .button-grid.columns-4 {
+          grid-template-columns: 1fr 1fr 1fr 1fr;
+     }
+
+}
